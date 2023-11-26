@@ -13,3 +13,4 @@ D:\Training\WMS\Application\obj\Debug\net7.0\Application.dll
 D:\Training\WMS\Application\obj\Debug\net7.0\refint\Application.dll
 D:\Training\WMS\Application\obj\Debug\net7.0\Application.pdb
 D:\Training\WMS\Application\obj\Debug\net7.0\ref\Application.dll
+D:\Training\WMS\Application\obj\Debug\net7.0\Application.sourcelink.json

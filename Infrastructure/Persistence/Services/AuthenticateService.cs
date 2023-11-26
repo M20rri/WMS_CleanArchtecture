@@ -7,7 +7,7 @@ using Application.Validators;
 using Domain.Settings;
 using System.Net;
 
-namespace Infrastructure.Persistence.Persistence.Services
+namespace Infrastructure.Persistence.Services
 {
     public class AuthenticateService : IAuthenticateService
     {
@@ -40,7 +40,7 @@ namespace Infrastructure.Persistence.Persistence.Services
             }
 
             var user = await _unitOfWork.authenticateRepositoryAsync.SignInAsync(model);
-            return await new Token(user.Userid.ToString(), user.Username, "AdminWMS").GenerateTokenAsync(_jwtSetting);
+            return await new Token(user.USERID.ToString(), user.USERNAME, "AdminWMS").GenerateTokenAsync(_jwtSetting);
 
         }
     }

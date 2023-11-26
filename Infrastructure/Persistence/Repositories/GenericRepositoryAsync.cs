@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Application.Interfaces;
-using Infrastructure.Persistence.Persistence.Contexts;
+using Infrastructure.Persistence.Contexts;
 using System.Linq.Dynamic.Core;
 using System.Linq.Expressions;
 
-namespace Infrastructure.Persistence.Persistence.Repositories
+namespace Infrastructure.Persistence.Repositories
 {
     public class GenericRepositoryAsync<T> : IGenericRepositoryAsync<T> where T : class
     {

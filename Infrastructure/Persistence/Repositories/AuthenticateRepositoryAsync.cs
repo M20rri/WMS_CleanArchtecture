@@ -2,40 +2,30 @@
 using Application.DTOs.Authenticate;
 using Application.Interfaces.Repositories;
 using Domain.Entities;
-using Infrastructure.Persistence.Persistence.Contexts;
+using Infrastructure.Persistence.Contexts;
 
-namespace Infrastructure.Persistence.Persistence.Repositories
+namespace Infrastructure.Persistence.Repositories
 {
-    internal class AuthenticateRepositoryAsync : GenericRepositoryAsync<WmsUserEditor>, IAuthenticateRepositoryAsync
+    internal class AuthenticateRepositoryAsync : GenericRepositoryAsync<WMS_USER_EDITOR>, IAuthenticateRepositoryAsync
     {
         private readonly ApplicationDbContext _dbContext;
-        private readonly DbSet<WmsUserEditor> _wmsUser;
+        private readonly DbSet<WMS_USER_EDITOR> _wmsUser;
         public AuthenticateRepositoryAsync(ApplicationDbContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
-            _wmsUser = dbContext.Set<WmsUserEditor>();
+            _wmsUser = dbContext.Set<WMS_USER_EDITOR>();
         }
 
         public async Task<bool> IsExistAsync(SignIn model)
         {
             return await _wmsUser
-              .AnyAsync(p => p.Userid == model.UserId && p.Userpassword == model.Password);
+              .AnyAsync(p => p.USERID == model.UserId && p.USERPASSWORD == model.Password);
         }
 
-        public async Task<WmsUserEditor> SignInAsync(SignIn model)
+        public async Task<WMS_USER_EDITOR> SignInAsync(SignIn model)
         {
-            try
-            {
-                var user = await _wmsUser.FirstOrDefaultAsync(a => a.Srno == 927);
-
-                return await _wmsUser
-              .FirstOrDefaultAsync(p => p.Userid == model.UserId && p.Userpassword == model.Password);
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
+            return await _wmsUser
+              .FirstOrDefaultAsync(p => p.USERID == model.UserId && p.USERPASSWORD == model.Password);
         }
     }
 }

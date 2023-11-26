@@ -5,11 +5,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Application;
-using Infrastructure.Persistence.Persistence.Contexts;
 using WebApi.Extensions;
 using System;
 using System.IO;
 using Infrastructure;
+using Infrastructure.Persistence.Contexts;
 try
 {
     var builder = WebApplication.CreateBuilder(args);

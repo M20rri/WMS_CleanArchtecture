@@ -1,8 +1,8 @@
 ﻿using Application.Interfaces;
 using Application.Interfaces.Repositories;
-using Infrastructure.Persistence.Persistence.Contexts;
+using Infrastructure.Persistence.Contexts;
 
-namespace Infrastructure.Persistence.Persistence.Repositories
+namespace Infrastructure.Persistence.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {

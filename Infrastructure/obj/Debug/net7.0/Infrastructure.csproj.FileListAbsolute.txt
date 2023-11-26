@@ -15,3 +15,4 @@ D:\Training\WMS\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
 D:\Training\WMS\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 D:\Training\WMS\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 D:\Training\WMS\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\Training\WMS\Infrastructure\obj\Debug\net7.0\Infrastructure.sourcelink.json

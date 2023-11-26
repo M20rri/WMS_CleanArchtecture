@@ -3,9 +3,9 @@ using Domain.Entities;
 
 namespace Application.Interfaces.Repositories
 {
-    public interface IAuthenticateRepositoryAsync : IGenericRepositoryAsync<WmsUserEditor>
+    public interface IAuthenticateRepositoryAsync : IGenericRepositoryAsync<WMS_USER_EDITOR>
     {
-        Task<WmsUserEditor> SignInAsync(SignIn model);
+        Task<WMS_USER_EDITOR> SignInAsync(SignIn model);
         Task<bool> IsExistAsync(SignIn model);
     }
 }

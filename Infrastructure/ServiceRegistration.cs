@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Infrastructure.Persistence.Persistence.Contexts;
-using Infrastructure.Persistence.Persistence.Repositories;
-using Infrastructure.Persistence.Persistence.Services;
 using Application.Interfaces;
 using Application.Interfaces.Repositories;
+using Infrastructure.Persistence.Contexts;
+using Infrastructure.Persistence.Services;
+using Infrastructure.Persistence.Repositories;
 
 namespace Infrastructure
 {

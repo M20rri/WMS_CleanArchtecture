@@ -1,0 +1,437 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "NAVWMSContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Draft",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "WebApi",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[ARC_MOVE_1_2019]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_MOVE_2_2019]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_MOVE_3_2019]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PICKING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PICKING_APR20]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PICKING_DEC19]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PICKING_FEB20]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PICKING_JAN20]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PICKING_MAR20]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PICKING_NOV19]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PICKING_RETURNCANCEL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PNA_BIN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PUTAWAY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PUTAWAY_RETURNCANCEL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_PUTAWAY_SCAN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_SORTING_DETAIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_SORTING_DETAIL2019]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_SORTING_DETAIL201901]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ARC_STOCKCOUNT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BILAL_LOCATION]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BKP_ARC_SORTING_DETAIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BKP_SORTING_DETAIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[IMTYAZ_TEMP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TBL_TEST_TEMP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TBLDEVICE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TESTPICKING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_APICONFIG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_APILOG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_BIN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_BIN_ZONE_MAPPING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CANCELLED_ITEMS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CC_REQUEST]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CC_SCAN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CC_SCHEDULE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CLASS_EDITOR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_COMMON_DEVICELEDGER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CYCLECOUNT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CYCLECOUNT_DISCREPANCY_REQUEST]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CYCLECOUNT_ITEMAPPROVED]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CYCLECOUNT_PENDINGITEMAPPROVAL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CYCLECOUNT_SCHEDULE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_CYCLECOUNT_SETTINGS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_DEVICE_LEDGER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_DEVICE_ZONE_MAPPING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_DOC_REGISTER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_DOC_SERIES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_DOC_SERIES_BKP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ERRORSUMMARY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ITEM_DIMENTION]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ITEM_EXPIRY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ITEM_UID]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ITEMEXPIRY_CAPTURE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ITEMLOTS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ITEMS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_LOCATION]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_LOCATIONTYPE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_LOGDETAILS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_MOBILE_DEVICE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_MOVE_1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_MOVE_2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_MOVE_2_LOG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_MOVE_3]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_MOVE_BINTOBIN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_MOVE_HEAD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_MOVE_PICKPUT_LOG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PAGEMASTER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PICKED_BATCHES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PICKING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PICKING_HEAD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PICKING_RETURNCANCEL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PICKING_TRANSACTIONLOG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PICKSTART]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PNA_BIN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PNA_ITEMS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PNA_PICKING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PUTAWAY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PUTAWAY_HEAD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PUTAWAY_RETURNCANCEL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_PUTAWAY_SCAN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_REPLENISHMENT_HEAD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_RESYNC_PICKING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_RETURNCANCEL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ROLE_PAGEMAPPING]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ROLL_EDITOR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_SETUP]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_SORTING_DETAIL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_STATUSMASTER]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_STOCKCOUNT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_STOCKCOUNT_UID]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_STORE_EDITOR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_SUBCLASS_EDITOR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_SUBROLL_EDITOR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_TOTEHEAD]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_TOTEHISTORY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_TOTEITEMS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_USER_EDITOR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_USER_TASKS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_USER_TOKEN]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WMS_ZONE_EDITOR]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "ksa-mssql-2.NAVWMS.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": true
+}
