@@ -1,2 +1,8 @@
 
 .vs/WMS/FileContentIndex/0de6c17d-728a-4b71-b1b4-621103f4d165.vsidx
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
