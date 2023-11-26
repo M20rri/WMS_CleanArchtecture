@@ -20,26 +20,26 @@ namespace Infrastructure.Persistence.Repositories
             return await _dbContext.Set<T>().FindAsync(id);
         }
 
-        public async Task<IEnumerable<T>> GetPagedReponseAsync(int pageNumber, int pageSize)
+        public async Task<IQueryable<T>> GetPagedReponseAsync(int pageNumber, int pageSize)
         {
-            return await _dbContext
+            return _dbContext
                 .Set<T>()
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .AsNoTracking()
-                .ToListAsync();
+                .AsQueryable();
         }
 
-        public async Task<IEnumerable<T>> GetPagedAdvancedReponseAsync(int pageNumber, int pageSize, string orderBy, string fields)
+        public async Task<IQueryable<T>> GetPagedAdvancedReponseAsync(int pageNumber, int pageSize, string orderBy, string fields)
         {
-            return await _dbContext
+            return _dbContext
                 .Set<T>()
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .Select<T>("new(" + fields + ")")
                 .OrderBy(orderBy)
                 .AsNoTracking()
-                .ToListAsync();
+                .AsQueryable();
         }
 
         public async Task<T> AddAsync(T entity)
@@ -61,16 +61,16 @@ namespace Infrastructure.Persistence.Repositories
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public async Task<IQueryable<T>> GetAllAsync()
         {
-            return await _dbContext
+            return _dbContext
                  .Set<T>()
-                 .ToListAsync();
+                 .AsQueryable();
         }
 
-        public async Task<IEnumerable<T>> FindAllByConditionAsync(Expression<Func<T, bool>> expression)
+        public async Task<IQueryable<T>> FindAllByConditionAsync(Expression<Func<T, bool>> expression)
         {
-            return await _dbContext.Set<T>().Where(expression).ToListAsync();
+            return _dbContext.Set<T>().Where(expression).AsQueryable();
         }
 
         public async Task<T> FindByConditionAsync(Expression<Func<T, bool>> expression)

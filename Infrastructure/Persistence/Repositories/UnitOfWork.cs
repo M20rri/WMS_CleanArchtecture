@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Application.Interfaces.Repositories;
+using Domain.Entities;
 using Infrastructure.Persistence.Contexts;
 
 namespace Infrastructure.Persistence.Repositories
@@ -8,6 +9,8 @@ namespace Infrastructure.Persistence.Repositories
     {
         private readonly ApplicationDbContext _dbContext;
         public IAuthenticateRepositoryAsync authenticateRepositoryAsync => new AuthenticateRepositoryAsync(_dbContext);
+        public IGenericRepositoryAsync<WMS_USER_EDITOR> userRepositoryAsync => new GenericRepositoryAsync<WMS_USER_EDITOR>(_dbContext);
+
         public UnitOfWork(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;

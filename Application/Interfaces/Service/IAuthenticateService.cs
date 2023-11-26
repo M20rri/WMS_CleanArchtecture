@@ -1,6 +1,6 @@
 ﻿using Application.DTOs.Authenticate;
 
-namespace Application.Interfaces
+namespace Application.Interfaces.Service
 {
     public interface IAuthenticateService
     {

@@ -6,6 +6,7 @@ using Application.Interfaces;
 using Application.Validators;
 using Domain.Settings;
 using System.Net;
+using Application.Interfaces.Service;
 
 namespace Infrastructure.Persistence.Services
 {

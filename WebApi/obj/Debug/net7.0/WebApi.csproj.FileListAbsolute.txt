@@ -305,4 +305,3 @@ D:\Training\WMS\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
 D:\Training\WMS\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 D:\Training\WMS\WebApi\obj\Debug\net7.0\ref\WebApi.dll
 D:\Training\WMS\WebApi\obj\Debug\net7.0\WebApi.sourcelink.json
-D:\Training\WMS\WebApi\bin\Debug\net7.0\efpt.config.json

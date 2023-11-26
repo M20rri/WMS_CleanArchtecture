@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Application.DTOs.Authenticate;
-using Application.Interfaces;
 using System.Net;
 using System.Threading.Tasks;
+using Application.Interfaces.Service;
 
 namespace WebApi.Controllers
 {

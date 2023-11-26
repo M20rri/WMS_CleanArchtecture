@@ -6,6 +6,7 @@ using Application.Interfaces.Repositories;
 using Infrastructure.Persistence.Contexts;
 using Infrastructure.Persistence.Services;
 using Infrastructure.Persistence.Repositories;
+using Application.Interfaces.Service;
 
 namespace Infrastructure
 {
@@ -28,6 +29,7 @@ namespace Infrastructure
             }
 
             services.AddTransient<IAuthenticateService, AuthenticateService>();
+            services.AddTransient<IUserService, UserService>();
 
             #region Repositories
 
