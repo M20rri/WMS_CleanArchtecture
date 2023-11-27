@@ -29,12 +29,12 @@ try
     //API Security
     builder.Services.AddJWTAuthentication(builder.Configuration);
     // API version
-    builder.Services.AddApiVersioningExtension();
+    //builder.Services.AddApiVersioningExtension();
     // API explorer
     builder.Services.AddMvcCore()
         .AddApiExplorer();
     // API explorer version
-    builder.Services.AddVersionedApiExplorerExtension();
+    //builder.Services.AddVersionedApiExplorerExtension();
     var app = builder.Build();
     if (app.Environment.IsDevelopment())
     {

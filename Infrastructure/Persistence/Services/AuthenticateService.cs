@@ -31,8 +31,7 @@ namespace Infrastructure.Persistence.Services
         {
             SignInCommandValidator validationRules = new SignInCommandValidator(_unitOfWork.authenticateRepositoryAsync);
             var password = model.Password.EncryptPass();
-            //model.Password = password;
-            model.Password = "PTixAGq+NebRksurqJZs9A==";
+            model.Password = password;
             var result = await validationRules.ValidateAsync(model);
             if (result.Errors.Any())
             {

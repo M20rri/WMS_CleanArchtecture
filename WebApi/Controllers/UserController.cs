@@ -4,11 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace WebApi.Controllers.v1
+namespace WebApi.Controllers
 {
     [Authorize]
     [Route("api/User")]
-    [ApiVersion("1.0")]
     public class UserController : BaseApiController
     {
         private readonly IUserService _iSender;
