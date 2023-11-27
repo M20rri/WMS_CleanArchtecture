@@ -1,3 +1,11 @@
 .vs/ 
 bin/ 
-obj/ 
+obj/
+Application/bin
+Application/obj
+Domain/bin
+Domain/obj
+Infrastructure/bin
+Infrastructure/obj
+WebApi/bin
+WebApi/obj
